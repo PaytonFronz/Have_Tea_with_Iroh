@@ -1,0 +1,56 @@
+* {
+    text-align: center;
+    font-family: Ink Free;
+    margin: auto;
+}
+
+#container{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 14vw;
+  padding-right: 32vw;
+  padding-bottom: 5vw;
+}
+
+.Iroh {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.getWisdom {
+    word-wrap: break-word;
+    overflow: hidden;
+    max-width: 40%;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    text-overflow: ellipsis;
+}
+
+.irohsWisdom {
+    width: fit-content;
+    color: rgb(86, 68, 45);
+    font-size: 30px;
+}
+
+.wisdomButton {
+    font-weight: bold;
+    border: 0px;
+    color: rgb(104, 83, 56);
+    background-color:rgb(162, 141, 113);
+    border-radius: 5%;
+    font-size: 20px;
+}
+
+.wisdomButton:hover{
+    opacity: 0.5;
+}
+
+.byIroh {
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(104, 83, 56);
+}
